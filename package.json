@@ -1,0 +1,33 @@
+{
+  "name": "node-ios-webkit-debug-proxy",
+  "version": "0.0.1",
+  "description": "A utility to install and run the ios-webkit-debug-proxy.",
+  "main": "src/main.js",
+  "scripts": {
+    "test": "mocha test/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/argelius/node-ios-webkit-debug-proxy"
+  },
+  "keywords": [
+    "ios-webkit-debug-proxy",
+    "chrome-devtools"
+  ],
+  "author": "Andreas Argelius <andreas@argeli.us>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/argelius/node-ios-webkit-debug-proxy/issues"
+  },
+  "homepage": "https://github.com/argelius/node-ios-webkit-debug-proxy",
+  "devDependencies": {
+    "chai": "^2.3.0",
+    "chai-as-promised": "^5.0.0",
+    "mocha": "^2.2.4"
+  },
+  "dependencies": {
+    "download": "^4.1.2",
+    "mv": "^2.0.3",
+    "rimraf": "^2.3.3"
+  }
+}
